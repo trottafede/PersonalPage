@@ -1,0 +1,58 @@
+:root {
+  --main-bg-color: #0e0e0e;
+  --second-bg-color: #fff;
+  --bg-grey: rgb(242, 241, 241);
+  --hover-items: red;
+  --card-bg: #000;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #AboutMe {
+    padding: 6rem;
+    font-family: "Merriweather";
+  }
+
+  #AboutMe #littleIcons i {
+    margin-top: 2rem;
+    font-size: 40px;
+  }
+  #AboutMe #littleIcons i:hover {
+    color: var(--hover-items);
+  }
+
+  #ContactMe {
+    padding: 6rem;
+    background-color: var(--main-bg-color);
+    color: var(--second-bg-color);
+  }
+
+  #Education {
+    padding: 6rem;
+    font-family: "Merriweather";
+    background-color: var(--second-bg-color);
+  }
+
+  #Education img {
+    width: 150px;
+    border-radius: 80%;
+  }
+  #Education .myMarginTop {
+    margin-top: 100px;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

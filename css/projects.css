@@ -1,0 +1,41 @@
+@media (min-width: 992px) {
+  /* Projects */
+  #projects {
+    background-color: var(--main-bg-color);
+    color: var(--second-bg-color);
+    padding: 3rem;
+    padding-bottom: 6rem;
+  }
+
+  #projects h2 {
+    margin-bottom: 3rem;
+  }
+  #projects a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  #projects a:hover {
+    color: var(--hover-items);
+  }
+
+  #projects .My-a-distance {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  #projects img {
+    transition: transform 0.4s, -webkit-transform 0.3s;
+  }
+
+  #projects .card {
+    background-color: var(--card-bg);
+  }
+
+  #projects img:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1.05);
+    box-shadow: 0 0 9px 1px #000;
+    border: 1px solid #e9e9e9;
+  }
+}
